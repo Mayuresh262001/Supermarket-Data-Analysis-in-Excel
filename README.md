@@ -1,50 +1,46 @@
-Supermarket Sales & Customer Insight Dashboard
-📊 Project Overview
-This project provides an end-to-end analysis of a supermarket’s sales performance. Using a dataset of 10,000+ transactions, this dashboard identifies key revenue drivers, peak sales periods, and high-value customer segments to help management make data-backed operational decisions.
+**🛒 Supermarket Sales & Customer Insight Analysis**
+**📌 Project Overview**
+This project provides a deep-dive analysis into the operational performance of a multi-branch supermarket chain. By processing over **10,000 transactions**, the study identifies key revenue drivers, optimizes discount strategies, and segments customers to improve targeted marketing efforts.
 
-🛠️ Tech Stack
-Data Source: Supermarket Transactional Data (Excel/CSV).
+**📊 Key Performance Indicators (KPIs)**
+**Total Net Sales:** $31.75 Million (After discounts and taxes).
 
-Analysis Tool: Power BI / Microsoft Excel.
+**Transaction Volume:** 10,000+ Unique Bills analyzed.
 
-Data Processing: Power Query (for cleaning 22+ columns of raw data).
+**Top Performing Branch:** Mumbai (Highest contributor to total revenue).
 
-Calculations: DAX for measures like Net Sales, GST calculations, and Discount Impact.
+**Lead Category:** Electronics (Highest grossing department).
 
-🔍 Key Performance Indicators (KPIs)
-Based on the analysis, the store achieved:
+**Average Customer Profile:** Core demographic centered around 41 years of age.
 
-Total Net Sales: $31.75 Million.
+**🛠️ Technical Highlights**
+**1. Data Engineering & Processing**
+**Advanced ETL:** Cleaned and structured 22 columns of raw transactional data, including Date/Time formatting and tax calculation validation.
 
-Top Performing Branch: Mumbai.
+**Feature Engineering:** Created new attributes like **"Sales Category"** (High/Medium/Low) and **"Day Name"** to identify weekly shopping peaks.
 
-Top Product Category: Electronics (leading in total revenue).
+**2. Analytical Depth**
+**Tax & Discount Impact:** Calculated the relationship between Gross Sales, GST Amount, and Discount % to determine actual Net Profitability.
 
-Preferred Payment Method: Wallet (followed closely by UPI and Cards).
+**Payment Behavior:** Analyzed the shift in payment methods, identifying **Wallets** and **UPI** as the primary transaction drivers over traditional Cash.
 
-Average Customer Age: 41 years.
+**3. Data Visualization**
+**Trend Analysis:** Line charts tracking revenue fluctuations across months and days.
 
-📈 Dashboard Insights
-Sales by Category: Identifies high-volume categories like Electronics and Groceries versus high-frequency categories like Bakery and Dairy.
+**Product Distribution:** Histograms and Column charts comparing sales volume across categories like Bakery, Dairy, and Electronics.
 
-Payment Mode Trends: A balanced distribution between Wallet, UPI, Card, and Cash, showing a strong shift toward digital payments.
+**Segment Profiling:** Pie charts visualizing the split between "High-Value" and "Lower-Value" sales transactions.
 
-Demographic Analysis: Breakdown of sales by Customer Gender and Age Groups to understand the primary shopper profile.
+**📈 Business Insights & Impact**
+**Branch Efficiency:** **Mumbai** and **Bangalore** outpace other regions, suggesting a higher demand for premium categories in these hubs.
 
-Temporal Trends: Line charts visualizing sales spikes across different months and days of the week (e.g., weekend vs. weekday performance).
+**Payment Optimization:** Since digital payments (Wallet/UPI) account for the majority of transactions, the store can implement digital-only loyalty rewards.
 
-Branch Comparison: Comparative analysis of performance across branches in Bangalore, Mumbai, Hyderabad, Pune, and Ahmedabad.
+**Inventory Strategy:** High sales in **Electronics** and **Personal Care** during specific months indicate a need for seasonal stock adjustments.
 
-📂 Repository Content
-Supermarket Sales Data.csv: The cleaned transactional dataset.
+**📂 Project Structure**
+**Supermarket Sales Data.csv —** **Cleaned Dataset** containing 10,000 transaction records.
 
-Supermarket_Dashboard.pbix: The interactive Power BI report file.
+**Supermarket Analysis.xlsx —** **Excel Workbook** featuring Pivot Tables, Slicers, and Charts.
 
-Charts_Export/: Folder containing exported visuals (Histogram, Pie Chart, Line Chart).
-
-🚀 How to Run
-Clone this repository.
-
-Open the .pbix file in Power BI Desktop.
-
-If using the Excel version, open the .xlsx file and navigate to the "Pivot Analysis" or "Dashboard" sheet.
+**Visuals/ —** Folder containing exported images of the **Histogram**, **Pie** **Chart**, and **Line Charts**.
